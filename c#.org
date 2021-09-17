@@ -325,7 +325,8 @@ the methods that have the same name but difers in the signature are called metho
    
    reference type instances (objects) are always stored on the heap as of static variables
 ** stack vs heap
-   when a value type is declared it is stored in the stack, when a refrence type is declared it is stored in the heap and a reference to it is stored in the stack.
+   when a value type is declared it is stored in the stack, when a refrence type is declared it is stored in the heap and a reference to it is stored in the stack. 
+   when a struct is declared it is stored on the stack.
 ** remember
    remember that The value of a reference type variable is always a reference.
    and The value of a value type variable is always a value of that type.
